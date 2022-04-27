@@ -1,0 +1,34 @@
+1) Install the following softwares at the mentioned locations (version not necessary)
+
+Program Name	Executable Location
+Slic3r EXE	C:\EcosystemApps\Slic3r\slic3r.exe
+Slic3r CFG	C:\Users\<username>\AppData\Roaming\Slic3r
+OpenSCAD	C:\EcosystemApps\OpenSCAD\openscad.exe
+FreeCAD		C:\EcosystemApps\FreeCAD 0.15\bin\FreeCAD.exe
+MeshLab		C:\EcosystemApps\VCG\MeshLab\meshlab_32.exe
+FlatCAM		C:\EcosystemApps\FlatCAM\FlatCAM.exe
+QCAD		C:\EcosystemApps\QCAD\qcad.exe
+
+2) Download repetral v3: https://hyrel3d.com/wiki/index.php/3_Install
+		http://hyrel3d.com/updates/repetrel_3.083_K.rar
+	The folder should be placed under C:/repetral
+
+3) Follow the steps to setup the drivers: https://hyrel3d.com/wiki/index.php/Drivers
+
+Navigate to C:\Repetrel\bin\_RUN_ME_ON_NEW_INSTALL and execute each numbered file AS ADMINSTRATOR, IN ORDER:
+
+1.Windows 8 Compatibility Resolver.bat
+2.dpinst_amd64.exe
+3.dpinst_x86.exe
+4.CDM v2.12.00 WHQL Certified.exe
+5.VCP_V1.3.1_Setup_x64.exe
+6.VCP_V1.3.1_Setup.exe
+7.vcredist_ia64.exe
+8.vcredist_x64.exe
+9.vcredist_x86.exe
+
+4) Load printer settings: https://hyrel3d.com/wiki/index.php/Settings. The printer is Hydra 16A
+
+5) Slic3r configs to be downloaded from here: https://hyrel3d.com/wiki/index.php/Slicing. Place it under C:\Users\<username>\AppData\Roaming\Slic3r
+
+6) Follow this tutorial for the software to detect the printer: https://hyrel3d.com/wiki/index.php/Connect
